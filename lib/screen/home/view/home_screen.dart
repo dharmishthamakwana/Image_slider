@@ -15,7 +15,6 @@ class _SliderScreenState extends State<SliderScreen> {
   SliderProvider? sliderProviderTrue;
   SliderProvider? sliderProviderFalse;
 
-
   @override
   Widget build(BuildContext context) {
     sliderProviderTrue = Provider.of<SliderProvider>(context, listen: true);
